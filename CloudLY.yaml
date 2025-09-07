@@ -55,7 +55,7 @@ proxies:
     username: test
     password: test
 
-  - name: "🇧🇩 Server-9" 
+  - name: "🇧🇩 Server-9"
     type: socks5
     server: 203.76.110.118
     port: 1088
@@ -114,6 +114,13 @@ proxies:
     username: test
     password: test
 
+  - name: "BDIX_Bypass_9"
+    type: socks5
+    server: 103.137.160.241
+    port: 6969
+    username: "@BDiX_BypassX"
+    password: "@BDiX_BypassX"
+
 proxy-groups:
   - name: "CloudX"
     type: select
@@ -162,6 +169,7 @@ proxy-groups:
       - "BracNet"
       - "Mirnet"
       - "Earth Telecom"
+      - "BDIX_Bypass_9"
 
 rules:
   - NETWORK,UDP,DIRECT
