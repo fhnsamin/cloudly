@@ -113,6 +113,27 @@ proxies:
     port: 1088
     username: test
     password: test
+    
+  - name: "BDIX_Bypass_1"
+    type: socks5
+    server: 103.85.241.148
+    port: 6969
+    username: "@BDiX_BypassX"
+    password: "@BDiX_BypassX"
+    
+  - name: "BDIX_Bypass_2"
+    type: socks5
+    server: 116.68.195.92
+    port: 6969
+    username: "@BDiX_BypassX"
+    password: "@BDiX_BypassX"
+    
+  - name: "BDIX_Bypass_4"
+    type: socks5
+    server: 122.144.12.155
+    port: 6969
+    username: "@BDiX_BypassX"
+    password: "@BDiX_BypassX"
 
   - name: "BDIX_Bypass_9"
     type: socks5
@@ -170,6 +191,9 @@ proxy-groups:
       - "Mirnet"
       - "Earth Telecom"
       - "BDIX_Bypass_9"
+      - "BDIX_Bypass_1"
+      - "BDIX_Bypass_2"
+      - "BDIX_Bypass_4"
 
 rules:
   - NETWORK,UDP,DIRECT
