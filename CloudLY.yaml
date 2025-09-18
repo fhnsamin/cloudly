@@ -1,18 +1,4 @@
 proxies:
-  - name: "🇧🇩 Server-1" #AmberIT
-    type: socks5
-    server: 118.179.216.138
-    port: 1920
-    username: test
-    password: test
-
-  - name: "🇧🇩 Server-2" #Carnival
-    type: socks5
-    server: 103.91.231.244
-    port: 1088
-    username: test
-    password: test
-
   - name: "🇧🇩 Server-3" #Telecom
     type: socks5
     server: 123.49.39.120
@@ -93,13 +79,6 @@ proxies:
     server: 121.200.63.205
     port: 8742
 
-  - name: "BracNet"
-    type: socks5
-    server: 115.127.92.226
-    port: 6699
-    username: ECats
-    password: ECats
-
   - name: "Mirnet"
     type: socks5
     server: 220.247.165.129
@@ -173,8 +152,6 @@ proxy-groups:
     type: load-balance
     strategy: round-robin
     proxies:
-      - "🇧🇩 Server-1"
-      - "🇧🇩 Server-2"
       - "🇧🇩 Server-3"
       - "🇧🇩 Server-4"
       - "🇧🇩 Server-5"
@@ -187,7 +164,6 @@ proxy-groups:
       - "🇧🇩 Server-12"
       - "Drik 2"
       - "Drik 3"
-      - "BracNet"
       - "Mirnet"
       - "Earth Telecom"
       - "BDIX_Bypass_9"
