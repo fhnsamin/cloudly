@@ -20,23 +20,9 @@ proxies:
     username: test
     password: test
 
-  - name: "Sam-Server-6" #IncomIT
-    type: socks5
-    server: 103.108.60.173
-    port: 1088
-    username: test
-    password: test
-
   - name: "Sam-EBox-Server-7" #SajidTrading
     type: socks5
     server: 103.166.253.92
-    port: 1088
-    username: test
-    password: test
-
-  - name: "🇧🇩 Server-8" #AamraTechnologies
-    type: socks5
-    server: 103.4.65.237
     port: 1088
     username: test
     password: test
@@ -155,9 +141,7 @@ proxy-groups:
       - "🇧🇩 Server-3"
       - "🇧🇩 Server-4"
       - "🇧🇩 Server-5"
-      - "Sam-Server-6"
       - "Sam-EBox-Server-7"
-      - "🇧🇩 Server-8"
       - "🇧🇩 Server-9"
       - "Sam-Circle-Server-10"
       - "🇧🇩 Server-11"
