@@ -112,27 +112,6 @@ proxy-groups:
     type: select
     proxies:
       - "All"
-      - "EBox"
-      - "Circle"
-      - "Sam"
-
-  - name: "EBox"
-    type: select
-    proxies:
-      - "Sam-EBox-Server-7"
-
-  - name: "Circle"
-    type: select
-    proxies:
-      - "Sam-Circle-Server-10"
-
-  - name: "Sam"
-    type: load-balance
-    strategy: round-robin
-    proxies:
-      - "Sam-Server-6"
-      - "Sam-EBox-Server-7"
-      - "Sam-Circle-Server-10"
 
   - name: "All"
     type: load-balance
