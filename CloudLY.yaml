@@ -112,6 +112,7 @@ proxy-groups:
     type: select
     proxies:
       - "All"
+      - "Available"
 
   - name: "All"
     type: load-balance
@@ -131,6 +132,21 @@ proxy-groups:
       - "Earth Telecom"
       - "BDIX_Bypass_1"
       - "BDIX_Bypass_2"
+      - "BDIX_Bypass_4"
+      - "BDIX_Bypass_9"
+
+  - name: "Available"
+    type: load-balance
+    strategy: round-robin
+    proxies:
+      - "🇧🇩 Server-5"
+      - "Sam-EBox-Server-7"
+      - "🇧🇩 Server-9"
+      - "Sam-Circle-Server-10"
+      - "🇧🇩 Server-11"
+      - "🇧🇩 Server-12"
+      - "Earth Telecom"
+      - "BDIX_Bypass_1"
       - "BDIX_Bypass_4"
       - "BDIX_Bypass_9"
 
